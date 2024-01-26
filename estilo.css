@@ -1,15 +1,26 @@
-html {background-color: #9c88ff;}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    margin: 0;
+    padding: 0;}
 
 section{
-width:100%;
-height:auto;
-border-radius:2px;
-background-color: #fff}
+    width: 80%;
+    height: auto;
+    border-radius: 9px;
+    background-color: #fff;
+    margin: 6% 0 0 11%;
+    padding: 16px 4px 19px 21px;
+}
 
 footer{
     width: 100%;
     background-color: #7158e2;
-    position:fixed;
-    height:50px;
-    color:#fff;
+    position: fixed;
+    height: 50px;
+    color: #fff;
+    bottom: 0;
 }
