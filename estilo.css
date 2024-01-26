@@ -22,6 +22,10 @@ header{
     margin-bottom: 13px;
 }
 
+hr {
+    margin-top: 10px;
+}
+
 footer{
     width: 100%;
     background-color: #7158e2;
@@ -32,6 +36,5 @@ footer{
 }
 
 h1{
-    font-weight: 500;
     font-size: xx-large;
 }
