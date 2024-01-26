@@ -5,3 +5,11 @@ width:100%;
 height:auto;
 border-radius:2px;
 background-color: #fff}
+
+footer{
+    width: 100%;
+    background-color: #7158e2;
+    position:fixed;
+    height:50px;
+    color:#fff;
+}
