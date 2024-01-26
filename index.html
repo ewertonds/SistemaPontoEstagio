@@ -3,52 +3,56 @@
 <head>
   <title>Sistema Ifá</title>
    <meta charset="utf-8">
+   <link rel="stylesheet" type="text/css" href="ewertonds/SistemaPontoEstagio/style.css">
 </head>
 <body>
-<h1>MARCAÇÃO DE PONTO</h1><hr>
-<p>Bem vindo ao Sistema de Maração de Ponto Virtual do Centro de Estudos CEPAS, por favor, preencha as informações abaixo com atenção. Qualquer dúvida, 
-    por favor, contate seu supervisor, precetor ou o próprio Centro de Estudos.</p>
-
-<form name="folhaponto" action="">
-  <label for="email-acad">Digite seu email:</label>
-  <input type="email" id="email-acad" name="email-acad"><br>
-  <label for="nome-acad">Selecione seu nome:</label>
-  <input type="select" id="nome-acad" name="nome-acad"><br>
-  <label for="cpf-acad">Digite seu CPF:</label>
-  <input type="text" id="cpf-acad" name="cpf-acad" maxLength="11"><br>
-  <label for="periodo">Selecione seu período:</label>
-  <input type="radio" id="entrada" name="periodo" value="Entrada">
-  <label for="entrada">Entrada</label><br>
-  <input type="radio" id="saida" name="periodo" value="Saída">
-  <label for="saida">Saída</label><br>
-  <label for="servico">Tipo de serviço:</label><br>
-  <input type="radio" id="plantaofixo" name="servico" value="Plantão Fixo">
-  <label for="entrada">Plantão Fixo</label><br>
-  <input type="radio" id="estagio" name="servico" value="Estágio">
-  <label for="entrada">Estágio</label><br>
-  <input type="radio" id="treina" name="servico" value="Treinamento">
-  <label for="entrada">Treinamento</label> <br>
-  <input type="radio" id="comple" name="servico" value="Complementação">
-  <label for="entrada">Complementação</label><br>
-  <input type="radio" id="comple" name="servico" value="Reposição">
-  <label for="entrada">Reposição</label><br>
-  <input type="radio" id="troca" name="servico" value="Troca">
-  <label for="entrada">Troca</label> <br>
-  <input type="radio" id="falta" name="servico" value="Falta">
-  <label for="entrada">Falta</label> <br>
-  <label for="just-troca">Troca com:</label>
-  <input type="text" id="nome-troca" name="nome-troca"><br>
-  <label for="obs">Observações:</label>
-  <input type="text" id="obs" name="obs"><br>
-  <label for="superv">Preceptor/Supervisor:</label>
-  <input type="text" id="superv" name="superv"><br>
-  <label for="cod-sup">Código do Responsável:</label>
-  <input type="password" id="cod-sup" name="cod-sup"><br>
-  <input type="submit" id="btn-enviar" name="btn-enviar" value="Enviar">
-  <input type="reset" id="btn-cancelar" name="btn-cancelar" value="Limpar">
-</form>
-<footer>
-    <p>Desenvolvido por: <a href="https://github.com/ewertonds">Ewerton Ds</a> & <a href="https://github.com/paulowos">Paulo Wos</a></p>
+    <section>
+            <header>
+                <h1>MARCAÇÃO DE PONTO</h1><hr>
+                <p>Bem vindo ao Sistema de Maração de Ponto Virtual do Centro de Estudos CEPAS, por favor, preencha as informações abaixo com atenção. Qualquer dúvida, 
+                por favor, contate seu supervisor, precetor ou o próprio Centro de Estudos.</p>
+            </header>
+            <form name="folhaponto" action="">
+            <label for="email-acad">Digite seu email:</label>
+            <input type="email" id="email-acad" name="email-acad"><br>
+            <label for="nome-acad">Selecione seu nome:</label>
+            <input type="select" id="nome-acad" name="nome-acad"><br>
+            <label for="cpf-acad">Digite seu CPF:</label>
+            <input type="text" id="cpf-acad" name="cpf-acad" maxLength="11"><br>
+            <label for="periodo">Selecione seu período:</label><br>
+            <input type="radio" id="entrada" name="periodo" value="Entrada">
+            <label for="entrada">Entrada</label><br>
+            <input type="radio" id="saida" name="periodo" value="Saída">
+            <label for="saida">Saída</label><br>
+            <label for="servico">Tipo de serviço:</label><br>
+            <input type="radio" id="plantaofixo" name="servico" value="Plantão Fixo">
+            <label for="entrada">Plantão Fixo</label><br>
+            <input type="radio" id="estagio" name="servico" value="Estágio">
+            <label for="entrada">Estágio</label><br>
+            <input type="radio" id="treina" name="servico" value="Treinamento">
+            <label for="entrada">Treinamento</label> <br>
+            <input type="radio" id="comple" name="servico" value="Complementação">
+            <label for="entrada">Complementação</label><br>
+            <input type="radio" id="comple" name="servico" value="Reposição">
+            <label for="entrada">Reposição</label><br>
+            <input type="radio" id="troca" name="servico" value="Troca">
+            <label for="entrada">Troca</label> <br>
+            <input type="radio" id="falta" name="servico" value="Falta">
+            <label for="entrada">Falta</label> <br>
+            <label for="just-troca">Troca com:</label>
+            <input type="text" id="nome-troca" name="nome-troca"><br>
+            <label for="obs">Observações:</label>
+            <input type="text" id="obs" name="obs"><br>
+            <label for="superv">Preceptor/Supervisor:</label>
+            <input type="text" id="superv" name="superv"><br>
+            <label for="cod-sup">Código do Responsável:</label>
+            <input type="password" id="cod-sup" name="cod-sup"><br>
+            <input type="submit" id="btn-enviar" name="btn-enviar" value="Enviar">
+            <input type="reset" id="btn-cancelar" name="btn-cancelar" value="Limpar">
+            </form>
+        </section>
+    <footer>
+        <p>Desenvolvido por: <a href="https://github.com/ewertonds">Ewerton Ds</a> & <a href="https://github.com/paulowos">Paulo Wos</a></p>
 </footer>
 </body>
 </html>
